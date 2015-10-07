@@ -1,6 +1,8 @@
-cd
-mkdir git-demo
-cd git-demo
-Start notepad++ README.txt
-git init
-git status
+mkdir git-demo							#Make directory git-demo
+cd git-demo								#Get into git-demo
+Start notepad++ <filename>				#Start program of choice and make document
+git init								#Make init
+git status								#Check git status
+git add <filename>						#Add file to the stage area
+git status								#Check if file is staged
+git commit								#Commit file to repository
