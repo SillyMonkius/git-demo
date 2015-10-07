@@ -1,0 +1,6 @@
+cd
+mkdir git-demo
+cd git-demo
+Start notepad++ README.txt
+git init
+git status
