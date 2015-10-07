@@ -2,10 +2,10 @@ mkdir git-demo							# Make directory git-demo
 cd git-demo								# Get into git-demo
 touch 									# Create new document
 Start notepad++ <filename>				# Start program of choice and open file
-git init								# Make init
+git init								# Make a local repository
 git status								# Check git status
 git add <filename>						# Add file to the stage area
 git status								# Check if file is staged
-git commit								# Commit file to repository via new window to insert comment
-git commit -m "Insert comment here"		# Commit file to repository with comment instantaneously 
+git commit								# Commit file to local repository via new window to insert comment
+git commit -m "Insert comment here"		# Commit file to local repository with comment instantaneously 
 git diff								# Shows difference between last commit and current state
